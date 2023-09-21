@@ -7,4 +7,4 @@ cv2.imshow('Image',img)                                        #To Display the I
 cv2.waitKey(5000)                                              #Mentions how long the window stays open Ex-->5000ms=5s
 cv2.destroyAllWindows()                                        #Closes the Window
 
-cv2.imwrite('new_img.jpg',img)
+# cv2.imwrite('new_img.jpg',img)   #This is to write image into a new file.
