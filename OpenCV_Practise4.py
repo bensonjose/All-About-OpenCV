@@ -14,7 +14,7 @@ while True:
     img = cv2.line(frame, (0, height), (width, 0), (0, 0, 255), 3)  # Draws a red line from bottom-left to top-right
     img = cv2.rectangle(frame, (100, 100), (400, 300), (0, 100, 0), 5)  # Draws a green rectangle
     
-    img = cv2.circle(frame, (200, 200), 150, (112, 118, 120), -1)  # Draws a filled gray circle
+    img = cv2.circle(frame, (200, 200), 150, (112, 118, 120), -1)  # Draws a filled gray circle  (-1 indicates fill it wholly), any other int can be used to get the desired thickness!
     
     font = cv2.FONT_HERSHEY_SIMPLEX
     img = cv2.putText(frame, 'Benson Loves Real Madrid!!!', (10, height - 10), font, 1, (0, 0, 0), 5, cv2.LINE_AA)  # Adds text
