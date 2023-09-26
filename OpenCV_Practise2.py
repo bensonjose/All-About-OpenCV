@@ -12,15 +12,15 @@ tag = resized_img[50:100, 75:150]
 # Paste the copied ROI back into the resized image at a different location.
 resized_img[25:75, 25:100] = tag
 
-# Display the modified, smaller resized image
+# Display the modified, smaller resized image.
 
-# Open a window to display the image with the title "Image"
+# Open a window to display the image with the title "Image".
 cv2.imshow('Image', resized_img)
 
-# Wait for a key press indefinitely (0) or for a specific time (in milliseconds)
+# Wait for a key press indefinitely (0) or for a specific time (in milliseconds).
 cv2.waitKey(0)
 
-# Close all OpenCV windows
+# Close all OpenCV windows.
 cv2.destroyAllWindows()
 
 
