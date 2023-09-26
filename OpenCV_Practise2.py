@@ -3,7 +3,7 @@ import cv2
 # Load an image from a file.
 img = cv2.imread(r"E:\Desktop Wallpapers\Chevrolet-Camaro-wp.jpg")
 
-# Resize the image to half its original size
+# Resize the image to half its original size.
 resized_img = cv2.resize(img, None, fx=0.5, fy=0.5)
 
 # Copy a region of interest (ROI) from the resized image
