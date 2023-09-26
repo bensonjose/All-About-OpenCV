@@ -9,7 +9,7 @@ resized_img = cv2.resize(img, None, fx=0.5, fy=0.5)
 # Copy a region of interest (ROI) from the resized image.
 tag = resized_img[50:100, 75:150]
 
-# Paste the copied ROI back into the resized image at a different location
+# Paste the copied ROI back into the resized image at a different location.
 resized_img[25:75, 25:100] = tag
 
 # Display the modified, smaller resized image
