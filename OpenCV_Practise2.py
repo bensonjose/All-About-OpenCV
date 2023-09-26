@@ -1,6 +1,6 @@
 import cv2
 
-# Load an image from a file
+# Load an image from a file.
 img = cv2.imread(r"E:\Desktop Wallpapers\Chevrolet-Camaro-wp.jpg")
 
 # Resize the image to half its original size
